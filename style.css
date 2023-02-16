@@ -26,7 +26,7 @@ body {
 main {
   position: relative;
   max-width: 100rem;
-  /* max-height: 60rem; */
+  max-height: 100rem;
   background-color: rgba(255, 255, 255, 0.35);
   backdrop-filter: blur(200px);
   filter: blur();
@@ -130,13 +130,13 @@ main {
 }
 
 .btn--new {
-  top: 4rem;
+  top: 5%;
 }
 .btn--roll {
-  top: 39.3rem;
+  top: 76%;
 }
 .btn--hold {
-  top: 46.1rem;
+  top: 89%;
 }
 
 .btn:active {
@@ -169,7 +169,7 @@ main {
   display: none;
 }
 @media screen and (max-width: 767.98px) {
-  body {
+  /* body {
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -178,15 +178,12 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     height: 100%;
-  }
+  } */
+
   html {
-    font-size: 50.5%;
+    font-size: 30.5%;
     box-sizing: border-box;
-  }
-  html {
-    font-size: 40.5%;
-    box-sizing: border-box;
-  }
+  /* }
   .btn--new {
     top: 2rem;
   }
@@ -195,5 +192,5 @@ main {
   }
   .btn--hold {
     top: 46%;
-  }
+  } */
 }
