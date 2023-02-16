@@ -85,7 +85,7 @@ btnHold.addEventListener("click", function () {
       scores[activePlayer];
 
     //2.Kiểm tra xem điểm >=100 thì kết thúc trò chơi
-    if (scores[activePlayer] >= 20) {
+    if (scores[activePlayer] >= 100) {
       document
         .querySelector(`.player--${activePlayer}`)
         .classList.add("player--winner");
